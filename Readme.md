@@ -84,7 +84,7 @@ cd /
 
 **I.** Affichez le contenu de la racine avec la commande : `ls –l`	
 
-![Virtual disk](/Images/commande ls.jpg) 
+![Virtual disk](/Images/commande_ls.jpg) 
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 

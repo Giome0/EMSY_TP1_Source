@@ -80,9 +80,11 @@ azerty
 
 Q4. vore commande ?!
 
+cd /
+
 **I.** Affichez le contenu de la racine avec la commande : `ls –l`	
 
-![Placer votre capture d'écran]() 
+![Virtual disk](/Images/commande ls.jpg) 
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 

@@ -88,40 +88,38 @@ cd /
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
-> votre réponse ?!
+lister tous les fichiers de façon complète avec les modes, les groupes, les créateurs et les dates
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 
-[Placer votre capture d'écran]()
-
-> votre réponse ?!
+![Virtual disk](/Images/Home_ligne.jpg)
 
 **J.** Créez un répertoire de travail nommé « EMSY_VosInitiales» 
 
 Q7. dans quel dossier racine allez-vous le placer (justifiez votre réponse) 
 
-> votre réponse ?! 
+dans le fichier Home car c'est le repertoir pour les utilisateurs
 
 Q8. Quelle commande allez-vous utiliser pour faire ceci ?  
 
-> votre commande ?! 
+sudo mkdir EMSY_GFE
 
 **K.** Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_XXX` et éditez celui en écrivant un texte, exemple : "TP linux by XXX et XXX".
 	   Utiliser la commande `vi`
 
-> votre commande ?! 
+vi TESTSLO_GFE_NRN
 
 Q9. Pouvez-vous éditez un fichier uniquement avec la commande `vi` 
 
-> votre réponse ?!
+oui
 
 Q10. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que le répertoire créé ci-dessus existe toujours (justifiez votre réponse) ? 
 
-> votre réponse ?!
+non, car le live cd n'affecte pas le vrais disque dure c'est de la memoire virtuelle et donc quand on quitte la VM le fichier n'est pas sauvegardé dans le disque ce qui fait qu'il est supprimer a l'extinction de la VM
 
 **L.** Tapez la commande `ls -l /dev/sda` 
 
-![Placer votre capture d'écran]() 
+![Virtual disk](/Images/dev_sda_commande.jpg)
 
 Q11. Que signifie **sda** ? 
 

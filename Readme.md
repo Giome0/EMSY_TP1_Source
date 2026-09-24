@@ -123,11 +123,11 @@ non, car le live cd n'affecte pas le vrais disque dure c'est de la memoire virtu
 
 Q11. Que signifie **sda** ? 
 
-> votre réponse ?!
+c'est le premier disque dur SCSI
 
 Q12. Quelle différence y a-t-il entre le répertoire de la question Q6 et celui du point L (justifiez votre réponse) ?
 
-> votre réponse ?!
+le repertoir de la questtion 6 est un repertoir virtuel qui n'affecte pas le disque dur alors que sda est le vrai disque dur 
 
 ## Installation de SparkyLinux sur la VM
 
@@ -137,7 +137,7 @@ Q12. Quelle différence y a-t-il entre le répertoire de la question Q6 et celui
 
 Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky en mode cli 
 
-> votre réponse ?!
+2GB
 
 Q14. A quoi sert la partition swap ? Est-ce que ce principe existe-t-il sur les OS Microsoft Windows ? 
 

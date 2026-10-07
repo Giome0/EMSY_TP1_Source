@@ -169,7 +169,7 @@ dpkg-reconfigure keyboard-configuration
 
 **P.** Tapez la commande : `nano -version`
 
-![Virtual disk](nano_version.jpg)
+![Virtual disk](/Images/nano_version.jpg)
 
 Q17. A quoi sert `nano` ? 
 
@@ -250,9 +250,6 @@ Q26. Que se passe-t-il ?
 
 il execute le programme qui est dans le .c
 
-
-
-...A compléter...
 
 ## Tips 
 

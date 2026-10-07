@@ -169,45 +169,45 @@ dpkg-reconfigure keyboard-configuration
 
 **P.** Tapez la commande : `nano -version`
 
-![Placer votre capture d'écran]() 
+![Virtual disk](nano_version.jpg)
 
 Q17. A quoi sert `nano` ? 
 
-> votre réponse ?!
+a cree ou modifier un fichier texte
 
 **Q.** Testez si l’application `git` est installée sur votre distribution, si ce n’est pas le cas installez un client git. 
 
 Q18. Comment savoir si `git` est déjà installé ? 
 
-> votre réponse ?!
+en verifiant la version de git
 
-> votre commande ?! 
+git --version
 
 Q19. Si le client `git` n'est pas installé, quelle(s) commande(s) utilisez-vous pour l’installer ? 
 
-> votre commande ?! 
+sudo apt install git
 
 Q20. Que veut dire `apt` ? 
 
-> votre réponse ?!
+Advanced Package Tool
 
 Q21. Est-ce que cette commande (`apt`) peut être utilisée sur toutes les distributions Linux (justifiez votre réponse)? 
 
-> votre réponse ?!
+non apt ne fonctionne que sur debian car cette commande a été conçu pour fonctionner avec des paquet .deb sur des distribution debian
 
 **R.** Créez un sous-répertoire « EMSY_TP1_XXX-YYY » dans le répertoire de votre utilisateur. 
        
 **Attention** : Ici on veut que l’utilisateur (vous) ait les droits de lecture, d’écriture et d’exécution.
 
-> votre commande ?! 
+sudo mkdir EMSY_TP1_GFE
 
 Q22. Quel est le répertoire utilisateur ?  
 
-> votre réponse ?!
+root
 
 Q23. Quelles sont les commandes pour changer les droits d'utilisateurs (lecture - écriture - execution) ?  
 
-> votre commande ?! 
+sudo chmod -R 777 EMSY_TP1_GFE
 
 **S.** Dans ce répertoire, tapez la commande : `git clone https://github.com/votreDepot/EMSY_TP1_Source`
 
@@ -215,17 +215,17 @@ Q23. Quelles sont les commandes pour changer les droits d'utilisateurs (lecture 
 
 Q24. Qu’observez-vous dans ce répertoire ?
 
-![Placer votre capture d'écran]()
+![Virtual disk](/Images/repertoir_github.jpg) 
 
 **T.** Editez le fichier source `.c` avec l’éditeur de texte « nano ». -> Réalisez un petit programme en C (par exemple de type « Hello world »).
 
-![Placer votre capture d'écran]()
+![Virtual disk](/Images/fichier_c.jpg) 
 
 **U.**	Vérifiez si le compilateur `gcc` est bien installé. Notez la version du logiciel
 
-> votre réponse ?!
+oui il est bien installé et en version 10.2.1
 
-![Placer votre capture d'écran]()
+![Virtual disk](/Images/gcc_version.jpg) 
 
 **U-A.** Tapez les commandes suivantes :
 ```Shell 
@@ -234,21 +234,21 @@ gcc -o fichier fichier.o
 ```
 Remarque : « fichier » est à remplacer par le nom de votre choix
 
-![Placer votre capture d'écran]()
+![Virtual disk](/Images/Shell.jpg) 
 
 Q25. Quels sont les fichiers qui ont été générés 
 
-> votre réponse ?!
+EMSY_TP1 et EMSY_TP1.o
 
-![Placer votre capture d'écran]()
+![Virtual disk](/Images/Shell2.jpg) 
 
 **V.** Entrez la commande suivante : `./fichier`
 
-![Placer votre capture d'écran]()
+![Virtual disk](/Images/executable.jpg) 
 
 Q26. Que se passe-t-il ?
 
-> votre réponse ?!
+il execute le programme qui est dans le .c
 
 
 

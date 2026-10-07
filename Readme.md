@@ -133,7 +133,13 @@ le repertoir de la questtion 6 est un repertoir virtuel qui n'affecte pas le dis
 
 **M.** Installez SparkyLinux
 
-![Placer vos captures d'écrans de l'installation]()
+![Virtual disk](/Images/Screen_Installer_Sparkylinux.jpg)
+![Virtual disk](/Images/Screen_Installer_Sparkylinux2.jpg)
+![Virtual disk](/Images/Screen_Installer_Sparkylinux3.jpg)
+![Virtual disk](/Images/Screen_Installer_Sparkylinux4.jpg)
+![Virtual disk](/Images/Screen_Installer_Sparkylinux5.jpg)
+![Virtual disk](/Images/Screen_Installer_Sparkylinux6.jpg)
+![Virtual disk](/Images/Screen_Installer_Sparkylinux7.jpg)
 
 Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky en mode cli 
 
@@ -141,25 +147,25 @@ Q13. Quelle est la taille de disque minimum recommandée pour installer la distr
 
 Q14. A quoi sert la partition swap ? Est-ce que ce principe existe-t-il sur les OS Microsoft Windows ? 
 
-> votre réponse ?!
+elle sert de backup pour la RAM au cas ou elle recois trop d'information la partition swap prend le surplus pour pas que la RAM soit surchargée
 
 Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle soit également accessible depuis un OS Microsoft ? 
 
-> votre réponse ?!
+NTFS
 
 Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent-ils ? 
 
-> votre réponse ?!
+au nouvel utilisateur que l'on crée et au host
 
 **N.** Une fois l’installation de Linux terminée, prenez une capture d’écran du démarrage de votre système (GRUB)
 
-![Placer votre capture d'écran]() 
+![Virtual disk](/Images/Screen_Installer_Sparkylinux11.jpg) 
 
 **O.** Trouvez la ou les lignes de commande permettant de changer le clavier et procédez à la configuiration 
 
-> votre commande ?! 
+dpkg-reconfigure keyboard-configuration
 
-![Placer votre capture d'écran]() 
+![Virtual disk](/Images/Screen_Installer_Sparkylinux12.jpg) 
 
 **P.** Tapez la commande : `nano -version`
 
